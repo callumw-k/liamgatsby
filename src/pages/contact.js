@@ -1,11 +1,10 @@
 import React from 'react';
-import CentredContentBlock from "../components/globals/CentredContentBlock"
+import ProgramGrid from "../components/ProgramGrid"
+
 
 
 export default function Contact() {
   return(
-    <CentredContentBlock>
-      <p>This is the contact page</p>
-    </CentredContentBlock>
+    <ProgramGrid/>
   )
 }

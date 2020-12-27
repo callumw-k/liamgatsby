@@ -6,37 +6,32 @@ const FooterWrapper = styled.footer``
 
 const FooterInner = styled.div`
   display: grid;
+  padding: 1rem;
   max-width: 1200px;
   margin: 0 auto;
   width: 95%;
   grid-template-columns: repeat(3, 33%);
-  
+
   @media (max-width: ${breakpoints.sm}) {
-  grid-template-columns: 100%
+    grid-template-columns: 100%;
   }
-  
 `
 
 const FooterCol = styled.div`
   h3 {
-  font-weight: bold;
+    font-weight: bold;
   }
 `
 
 const FooterCol1 = styled(FooterCol)`
-
   h3 {
-  font-weight: bold;
+    font-weight: bold;
   }
-`;
+`
 
-const FooterCol2 = styled(FooterCol)`
-`;
+const FooterCol2 = styled(FooterCol)``
 
-const FooterCol3 = styled(FooterCol)`
-`;
-
-
+const FooterCol3 = styled(FooterCol)``
 
 export default function Footer() {
   return (

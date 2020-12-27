@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
-import { device } from "../MediaQuires"
+import { device } from "../MediaQueries"
 import GlobalComponents from "../globals/GlobalsComponents"
 
 const AboutWrapper = styled.div`

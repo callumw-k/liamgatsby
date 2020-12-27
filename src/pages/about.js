@@ -1,12 +1,17 @@
 import React from 'react';
-import CentredContentBlock from "../components/globals/CentredContentBlock"
+import styled from 'styled-components';
+import CentredContent from "../components/globals/styling-components/CentredContent"
+
+const AboutWrapper = styled(CentredContent)`
+
+`
 
 
 export default function  About() {
   return(
-    <CentredContentBlock >
-      <p>This is a test</p>
-    </CentredContentBlock>
+    <AboutWrapper>
+      <p>This is a test.</p>
+    </AboutWrapper>
   )
 }
 
