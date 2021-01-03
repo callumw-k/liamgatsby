@@ -38,7 +38,8 @@ const HeroImg = styled(Img)`
 
 
 
-export default function About() {
+export default class About extends React.Component {
+  render() {
   const data = useStaticQuery(graphql`
     query {
       file(relativePath: { eq: "stockholder.jpg" }) {
@@ -86,4 +87,5 @@ export default function About() {
       </AboutInner>
     </AboutWrapper>
   )
+}
 }
